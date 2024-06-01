@@ -43,3 +43,15 @@ while i < 6:
 
 print("\n")
 ''' for loop    '''
+#pretty simple and straight forward
+#u can use break, continue and pass (same rules)
+for x in range(6):
+   print(x)
+print("\n")
+for y in range(2,6):
+   print(y)
+print("\n")
+for z in range(2,10,2):
+   print(z)
+#range() function defaults to increment the sequence by 1
+#it is possible to specify the increment value by adding a third parameter
