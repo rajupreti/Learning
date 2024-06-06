@@ -47,3 +47,31 @@ def dpv(country="India"):
 dpv("France")
 dpv()
 dpv("United Kingdom")
+
+print("\n")
+#Passing a List as an argument
+def las(food):
+    for x in food:
+        print("I like", x)
+fruits= ["apple", "banana", "cherry"]
+las(fruits)
+
+print("\n")
+#Position only (x, /) & Keyword only (*, x) arguments
+def pko (w, x, /, *, y, z):
+    print("Sum is", w+x+y+z) 
+pko(1, 2, y=3, z= 4)
+
+print("\n")
+
+print("\n")
+#Recursion using functions
+def ruf(k):
+    if k > 0:
+        result = k + ruf(k-1)
+        print(result)
+    else:
+        result = 0
+    return result
+print("Recursion result example: ")
+ruf(6)
